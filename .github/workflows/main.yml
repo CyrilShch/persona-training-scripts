@@ -13,7 +13,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2.0.0
         with:
-          python-version: '3.7'
+          python-version: '3.8'
       # Tells Github to run the file `scraper.py` from your repository
       - name: Run Scraper
         run: python script_BolCom.py scrape
